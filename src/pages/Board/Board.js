@@ -49,12 +49,14 @@ export default function Board() {
         setTasks(updatedTasks);
     }
 
+    console.log(tasks);
+
     return(<div className="Board-wrapper">
         {
             lanes.map((lane) => (
             <Lane 
                 key={lane.id}
-                laneid={lane.id}
+                laneId={lane.id}
                 title={lane.title}
                 loading={loading}
                 error={error}

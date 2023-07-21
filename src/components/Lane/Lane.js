@@ -1,4 +1,5 @@
 import Task from "../Task/Task";
+import "./Lane.css";
 
 export default function Lane ({title, laneId, loading, error, tasks, onDragStart, onDragOver, onDrop}) {
     return (

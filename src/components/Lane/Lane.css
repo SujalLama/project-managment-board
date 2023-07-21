@@ -1,0 +1,13 @@
+.Lane-wrapper {
+    flex: 1;
+    background-color: lightgrey;
+}
+
+.Lane-wrapper h2 {
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    margin-top: 0;
+    padding: 1em;
+    margin-bottom: 1em;
+}
